@@ -29,4 +29,4 @@
 在**assets/js/UI**目录下**UIDirective.js**，此文件是coffeescript生成，原文件可查看同目录下**UIDirective.coffee**
 
 #### 预览图
-![image](https://github.com/porrychen/ui-process/master/assets/screenshots/ui-process-screenshot.png)
+![image](https://github.com/porrychen/ui-process/blob/master/assets/screenshots/ui-process-screenshots.png?raw=true)

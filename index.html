@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+        <title>uiProcess DEMO</title>
+        <meta name="description" content="ui-process，angularjs, svg, directive">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+        <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	</head>
+
+	<body ng-app="app" style="background:#EEE">
+        <div ><h1 class="page-header">uiProcess Demo</h1></div>
+        <div ng-controller="DashboardController">
+        	<div ui-process data-process-model="processData"></div>
+        </div>
+        
+		<script src="libs/angular/angular-1.2.26.min.js"></script>
+        <script src="libs/jquery/jquery-2.1.3.min.js"></script>
+        <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+
+        <script src="assets/js/app.js"></script>
+        <script src="assets/js/UI/UIDirective.js"></script>
+
+        <script type="text/javascript">
+            $(function(){
+                // 激活 tooltip
+                $('[data-rel=tooltip]').tooltip({container: "body", placement: "auto"});
+            });
+        </script>
+	</body>
+    
+</html>

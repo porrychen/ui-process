@@ -274,7 +274,7 @@ angular.module('app.ui.directives', [])
                   svg.setAttribute('height', (childCount - 1) * 90)
                 # 调整整个画布的宽度
                 svg.setAttribute('width', 40 * 2 + (count - 1) * gap)
-            )
+            , true)
             
         }
 
